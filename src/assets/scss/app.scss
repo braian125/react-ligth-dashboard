@@ -1,0 +1,30 @@
+header {
+    nav {
+        background-color: darkcyan;
+        padding: 15px 5px;
+    }
+
+    margin-left: 5rem;
+
+    .row.no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .row.no-gutters > [class^="col-"],
+    .row.no-gutters > [class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.sidebar {
+    position: absolute;
+    background-color: darkcyan;
+    width: 5rem;
+    height: 100vh;
+}
+
+#main-page {
+    margin-left: 15px;
+    padding: 15px 5px;
+}
